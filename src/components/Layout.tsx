@@ -7,6 +7,10 @@ interface LayoutProps {
 }
 
 export const Layout =({title, children}: LayoutProps) => {
+
+    useEffect (() => {
+        document.title = title;
+    }, [title]);
     return (
     <> 
     

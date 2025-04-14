@@ -1,7 +1,10 @@
 import { Layout } from "./components/Layout";
+import { Hero } from "./components/Hero";
 
 function App() {
-  return <Layout title="EdgeAI"></Layout>;
+  return <Layout title="EdgeAI">
+    <Hero />
+  </Layout>;
 
 }
 
