@@ -2,6 +2,7 @@ import { Container } from "../shared/Container";
 import { Title } from "../shared/Title";
 import { Paragraph } from "../shared/Paragraph";
 import { pricingPlans } from "../../utils/pricing-plans";
+import { Button } from "../shared/Button";
 
 export const Pricing = () => {
     return (
@@ -37,6 +38,9 @@ export const Pricing = () => {
                                     </li>
                                 ))}
                             </ul>
+                            <div className="mt-8">
+                                <Button className="w-full transform transition-transform duration-300 hover:scale-105 text-white">Choose Plan</Button>
+                            </div>
                             </div>
                         </div>
                     </div>
